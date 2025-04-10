@@ -1,0 +1,12 @@
+name: skyvault
+services:
+  - name: web
+    environment_slug: python
+    instance_count: 1
+    instance_size_slug: basic-xxs
+    routes:
+      - path: /
+    run_command: gunicorn app:app
+    source_dir: /
+    http_port: 8080
+    build_command: pip install -r requirements.txt
