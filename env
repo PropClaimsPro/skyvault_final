@@ -1,20 +1,7 @@
-# Wallet address (this will be injected securely)
 WALLET_ADDRESS=0xEe020f2073b899e17f87Deecc5D904E7b1E4fB1d
-
-# Environment (production or staging)
 SKYVAULT_ENV=production
-
-# Debug mode (True or False)
 DEBUG=false
-
-# Enable/Disable compounding of profits
 ENABLE_COMPOUNDING=true
-
-# Autoscale strategy used for compound logic
 AUTOSCALE_STRATEGY=smart-streak
-
-# Max number of containers for the app
 MAX_CONTAINERS=5
-
-# Threshold in USD for payout triggers
 PAYOUT_THRESHOLD_USD=50000
